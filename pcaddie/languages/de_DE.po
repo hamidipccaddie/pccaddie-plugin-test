@@ -1,0 +1,131 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.4\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Last-Translator: \n"
+"Language: de_DE\n"
+
+#: wp-content/plugins/pccaddie/includes/pcco-restrication.php
+msgid "Zusatz-Info"
+msgstr "Seite nur mit Zusatz-Info sichtbar<br />Liste bitte mit Semikolon trennen"
+
+msgid "Nur für Mitglieder"
+msgstr "Seite nur für Mitglieder sichtbar"
+
+msgid "Meta Box Headline"
+msgstr "PC CADDIE://online Zugriffsschutz"
+
+#: wp-content/plugins/pccaddie/includes/pcco-config.php
+msgid "Pflichtangabe"
+msgstr "Dieses Feld ist eine Pflichtangabe."
+
+msgid "pccouser"
+msgstr "XML Benutzername"
+
+msgid "pccopassword"
+msgstr "XML Passwort"
+
+msgid "clubnumbercountry"
+msgstr "Clubnummer (siebenstellig)"
+
+msgid "datefrom"
+msgstr "Datum von (-Tage vor heute)"
+
+msgid "dateto"
+msgstr "Datum bis (+Tage nach heute)"
+
+msgid "minentries"
+msgstr "Anzahl der Einträge (min)"
+
+msgid "maxentries"
+msgstr "Anzahl der Einträge (max)"
+
+msgid "autologout"
+msgstr "Automatisches Abmelden<br />(in Sek.)"
+
+msgid "eventurl"
+msgstr "Seite mit dem Event iFrame"
+
+msgid "redirect"
+msgstr "Weiterleitungsseite falls eine geschützte Seite unberechtigt aufgerufen werden sollte"
+
+msgid "afterlogin"
+msgstr "Weiterleitungsseite nach dem erfolgreichen Login"
+
+msgid "referer"
+msgstr "Nach erfolgreichem Login auf zuletzt besuchte Seite weiterleiten"
+
+msgid "language"
+msgstr "Sprachen der Webseite (kommasepariert)"
+
+msgid "layout"
+msgstr "CSS Layout für Plugin-Komponenten"
+
+msgid "Nein"
+msgstr "Nein"
+
+msgid "Ja"
+msgstr "Ja"
+
+#: wp-content/plugins/pccaddie/includes/pcco-shortcode.php
+msgid "Kein Termin"
+msgstr "Aktuell liegen keine Termine vor."
+
+msgid "Uhr"
+msgstr "Uhr"
+
+msgid "Anmeldung ab"
+msgstr "Anmeldung ab"
+
+msgid "Anmeldung bis"
+msgstr "Anmeldung bis"
+
+msgid "Turnierlink"
+msgstr "Turnierlink"
+
+#: wp-content/plugins/pccaddie/includes/pcco-class.php
+msgid "Benutzername"
+msgstr "Benutzername"
+
+msgid "Passwort"
+msgstr "Passwort"
+
+msgid "Anmelden"
+msgstr "Anmelden"
+
+msgid "Anmeldung"
+msgstr "Anmeldung"
+
+msgid "E-Mail"
+msgstr "E-Mail Adresse"
+
+msgid "Zugangsdaten vergessen"
+msgstr "Zugangsdaten vergessen"
+
+msgid "Herr"
+msgstr "Herr"
+
+msgid "Frau"
+msgstr "Frau"
+
+msgid "Hallo"
+msgstr "Hallo"
+
+msgid "Logout"
+msgstr "Logout"
+
+msgid "Eingabe fehlerhaft"
+msgstr "Benutzer oder Passwort fehlerhaft."
+
+msgid "Konfiguration fehlerhaft"
+msgstr "Das Plugin ist noch nicht vollständig konfiguriert."
+
+msgid "Parameter fehlerhaft"
+msgstr "Der angegebene Parameter ist ungültig."

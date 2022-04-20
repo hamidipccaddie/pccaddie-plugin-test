@@ -1,0 +1,131 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.4\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Last-Translator: \n"
+"Language: en_GB\n"
+
+#: wp-content/plugins/pccaddie/includes/pcco-restrication.php
+msgid "Zusatz-Info"
+msgstr "Page only visible with additional info<br />Please separate list with semicolon"
+
+msgid "Nur für Mitglieder"
+msgstr "Page only visible to members"
+
+msgid "Meta Box Headline"
+msgstr "PC CADDIE://online access protection"
+
+#: wp-content/plugins/pccaddie/includes/pcco-config.php
+msgid "Pflichtangabe"
+msgstr "This field is required."
+
+msgid "pccouser"
+msgstr "XML user name"
+
+msgid "pccopassword"
+msgstr "XML password"
+
+msgid "clubnumbercountry"
+msgstr "Club number (seven digits)"
+
+msgid "datefrom"
+msgstr "Date from (-days before today)"
+
+msgid "dateto"
+msgstr "Date to (+days after today)"
+
+msgid "minentries"
+msgstr "Number of entries (min)"
+
+msgid "maxentries"
+msgstr "Number of entries (max)"
+
+msgid "autologout"
+msgstr "Automatic Logout<br />(in sec.)"
+
+msgid "eventurl"
+msgstr "Page with the event iFrame"
+
+msgid "redirect"
+msgstr "Forwarding page if a protected page should be called without authorization"
+
+msgid "afterlogin"
+msgstr "Forwarding page after successful login"
+
+msgid "referer"
+msgstr "After successful login forward to last visited page"
+
+msgid "language"
+msgstr "Languages of the website (comma separated)"
+
+msgid "layout"
+msgstr "CSS layout for plugin components"
+
+msgid "Nein"
+msgstr "No"
+
+msgid "Ja"
+msgstr "Yes"
+
+#: wp-content/plugins/pccaddie/includes/pcco-shortcode.php
+msgid "Kein Termin"
+msgstr "Currently there are no appointments."
+
+msgid "Uhr"
+msgstr "o'clock"
+
+msgid "Anmeldung ab"
+msgstr "Registration from"
+
+msgid "Anmeldung bis"
+msgstr "Registration till"
+
+msgid "Turnierlink"
+msgstr "Tournament link"
+
+#: wp-content/plugins/pccaddie/includes/pcco-class.php
+msgid "Benutzername"
+msgstr "User name"
+
+msgid "Passwort"
+msgstr "Password"
+
+msgid "Anmelden"
+msgstr "Sign up"
+
+msgid "Anmeldung"
+msgstr "Registration"
+
+msgid "E-Mail"
+msgstr "E-Mail addresse"
+
+msgid "Zugangsdaten vergessen"
+msgstr "Forgot your login"
+
+msgid "Herr"
+msgstr "Mr."
+
+msgid "Frau"
+msgstr "Mrs."
+
+msgid "Hallo"
+msgstr "Hi"
+
+msgid "Logout"
+msgstr "Logout"
+
+msgid "Eingabe fehlerhaft"
+msgstr "User or password incorrect."
+
+msgid "Konfiguration fehlerhaft"
+msgstr "The plugin is not fully configured yet."
+
+msgid "Parameter fehlerhaft"
+msgstr "The specified parameter is invalid."

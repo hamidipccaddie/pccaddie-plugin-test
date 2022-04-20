@@ -1,0 +1,100 @@
+/* default style for PCCo plugin components */
+
+#pcco-frame {
+    width: 100%;
+    border: none;
+}
+
+#pcco-access {
+    width: 100%;
+    border: none;
+    display: none;
+}
+
+#pcco-logout {
+    width: 0;
+    height: 0;
+    border: none;
+    display: none;
+}
+
+.pcco-container .pcco-access {
+    cursor: pointer;
+}
+
+.pcco-container .pcco-headline {
+    margin: 0;
+    padding: 0;
+}
+
+/* default style for PCCo snapshot */
+
+.pcco-snapshot-container {
+    width: 100%;
+    display: table;
+    border-spacing: 5px;
+    border-collapse: separate;
+}
+
+.pcco-snapshot-spacer {
+    width: 25%;
+    display: table-cell;
+}
+
+.pcco-snapshot {
+    width: 25%;
+    overflow: hidden;
+    position: relative;
+    border-radius: 3px;
+    display: table-cell;
+    border: 1px solid #ccc;
+}
+
+.pcco-snapshot * {
+    margin: 0;
+    padding: 0;
+
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+}
+
+.pcco-snapshot .pcco-snapshot-default {
+    left: 0;
+    top: -1px;
+    width: 100%;
+    height: 101%;
+    position: absolute;
+    background-color: #fff;
+    border-top: 1px solid #ccc;
+}
+
+.pcco-snapshot:hover .pcco-snapshot-default {
+    top: 100%;
+}
+
+.pcco-snapshot .pcco-snapshot-appear {
+    background-color: #fff;
+}
+
+/* media queries for PCCo snapshot */
+
+@media (max-width: 768px) {
+
+    .pcco-snapshot-spacer {
+        display: none;
+    }
+
+    .pcco-snapshot-container {
+        width: 100%;
+        display: block;
+    }
+
+    .pcco-snapshot {
+        width: 100%;
+        margin: 5px 0;
+        display: block;
+    }
+
+}
