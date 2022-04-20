@@ -296,7 +296,7 @@ function pcco_display_setting($args)
                 '" id="' . $id .
                 '" name="' . $sOptionName . '[' . $id . ']' .
                 '" placeholder="' . $placeholder .
-                '" value="' . $aOptions[$id] .
+                '" value="' . $aOptions[$id] ?? '' .
                 '" />';
 
             break;
@@ -309,7 +309,7 @@ function pcco_display_setting($args)
             {
                 foreach ($value as $iValue => $sOption)
                 {
-                    echo '<option value="' . $iValue . '"' . (intval($aOptions[$id]) === $iValue ? 'selected="selected"' : '') . '>' . $sOption . '</option>';
+                    echo '<option value="' . $iValue . '"' . (intval($aOptions[$id] ?? '') === $iValue ? 'selected="selected"' : '') . '>' . $sOption . '</option>';
                 }
             }
 
@@ -334,7 +334,7 @@ function pcco_display_setting($args)
                 '<textarea  cols="30" rows="4" class="regular-text ' . $class .
                 '" name="' . $sOptionName . '[' . $id . ']' .
                 '" placeholder="' . $placeholder .
-                '">' . $aOptions[$id] .
+                '">' . $aOptions[$id] ?? '' .
                 '</textarea>';
     }
 }
