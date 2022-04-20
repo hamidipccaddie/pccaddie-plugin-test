@@ -51,7 +51,7 @@ class PCCo
                         <div class="col-sm-12">
                             <div class="form-group">
                                 <label for="pcco[user]">' . __('Benutzername', 'pccoFrontend') . '</label>
-                                <input type="text" class="form-control pcco-input" name="pcco[user]" value="' . $_REQUEST['pcco']['user'] . '" placeholder="' . __('E-Mail', 'pccoFrontend') . '">
+                                <input type="text" class="form-control pcco-input" name="pcco[user]" value="' . ($_REQUEST['pcco']['user'] ?? '') . '" placeholder="' . __('E-Mail', 'pccoFrontend') . '">
                             </div>
                         </div>
 
