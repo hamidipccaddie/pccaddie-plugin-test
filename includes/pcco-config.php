@@ -296,7 +296,7 @@ function pcco_display_setting($args)
                 '" id="' . $id .
                 '" name="' . $sOptionName . '[' . $id . ']' .
                 '" placeholder="' . $placeholder .
-                '" value="' . '' .
+                '" value="' .
                 '" />';
 
             break;
@@ -323,7 +323,7 @@ function pcco_display_setting($args)
                 '" type="' . $type .
                 '" id="' . $id .
                 '" name="' . $sOptionName . '[' . $id . ']' .
-                '" value="' . $aOptions[$id] .
+                '" value="'.
                 '" />';
 
             break;
@@ -334,7 +334,7 @@ function pcco_display_setting($args)
                 '<textarea  cols="30" rows="4" class="regular-text ' . $class .
                 '" name="' . $sOptionName . '[' . $id . ']' .
                 '" placeholder="' . $placeholder .
-                '">' . '' .
+                '">' .
                 '</textarea>';
     }
 }
