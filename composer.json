@@ -1,7 +1,7 @@
 {
     "name": "pccaddie/pcco_plugin",
     "description": "PCCO WORDPRESS Plugin",
-    "version": "1.0",
+    "version": "2.11.1",
     "type": "wordpress-plugin",
     "require": {
         "composer/installers": "~1.0",
